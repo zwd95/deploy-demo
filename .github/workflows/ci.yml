@@ -1,17 +1,17 @@
-name: CBD
+name: CI
 on:
   push:
     branches:
       - master
 jobs:
-  cbd:
-    name: doc cbd
+  CI:
+    name: vue3 demo
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build
-        run: yarn && yarn run deploy
+        run: npm && npm run build
       - name: DeployGP
         uses: peaceiris/actions-gh-pages@v3
         with:
