@@ -23,6 +23,6 @@ jobs:
           ARGS: "-avz --delete"
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOVE_USER }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
           SOURCE: "dist"
           TARGET: "/data/apps/DM/dist"
