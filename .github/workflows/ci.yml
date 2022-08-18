@@ -16,7 +16,7 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           publish_dir: ./dist
-      - name: DeployALiYun
+      - name: DeployECS
         uses: easingthemes/ssh-deploy@v2
         env:
           ARGS: "-avz --delete"
