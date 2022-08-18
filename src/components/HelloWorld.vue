@@ -5,7 +5,7 @@ defineProps({
   msg: String
 })
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -35,6 +35,6 @@ const count = ref(0)
 
 <style scoped>
 .read-the-docs {
-  color: #888;
+	color: #888;
 }
 </style>
