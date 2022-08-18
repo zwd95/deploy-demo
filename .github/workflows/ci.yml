@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  vue3 demo:
+  vue3-demo:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
